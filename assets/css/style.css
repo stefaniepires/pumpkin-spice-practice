@@ -1,0 +1,123 @@
+* { 
+  box-sizing: border-box; 
+  padding: 0;
+    margin: 0;
+}
+
+body { 
+  margin: 0 rem; 
+  font-family: Avenir, Roboto, Helvetica, san-serif; 
+  font-size: 90%; 
+  background: #E5D2C3;
+}
+
+/* HEADER/NAVIGATION
+*/
+
+header  {
+    padding: 2px;
+    font-family: Avenir, Roboto, Helvetica, san-serif; 
+    background-color: #e5d2c3;
+    color: #603c14;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 30px;
+}
+
+header h1 .seo {
+    color: #d45b12;
+    font-family: Avantgarde, "TeX Gyre Adventor", "URW Gothic L", sans-serif;
+    font-style: italic;
+    font-weight: 50;
+}
+
+header nav {
+    padding-top: 40px;
+    margin-right: 20px;
+    float: right;
+    font-family: Avenir, Roboto, Helvetica, san-serif;
+    font-size: 17px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+  color: #603c14;
+  text-decoration: none;
+}
+
+
+/* HERO SECTION
+
+  */
+
+.hero {
+    height: 1080px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/main-img.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Grid Section*/
+
+main { 
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 2rem;
+}
+article {
+  display: flex;
+  flex-flow: column;
+  background: white;
+  padding: 2rem;
+}
+h1 {
+  margin: 1em 0 0;
+  line-height: 1.2;
+  font-weight: normal;
+}
+p {
+  margin: 0.6em 0 2rem;
+}
+img {
+  order: -1;
+  align-self: center;
+  width: 100%;
+}
+main a {
+  display: block;
+  text-align: center;
+  margin-top: auto; 
+  background: #f3bc3e;
+  color: #603c14;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 0.4rem 0 0.3rem;
+}
+
+/* FOOTER*/
+footer {
+  padding: 30px;
+  clear: both;
+  font-family: Avantgarde, "TeX Gyre Adventor", "URW Gothic L", sans-serif;
+  text-align: center;
+}
+
+footer h2 {
+  font-size: 15px;
+}
+
+footer p {
+  font-size: 10px;
+}
