@@ -9,6 +9,6 @@ This website was intended for practice and is based on a fall theme.
 
 
 ## Website
-https://steftinsley.github.io/pumpkin-spice-practice/
+https://stefaniepires.github.io/pumpkin-spice-practice/
 
 ![Screenshot](https://github.com/steftinsley/pumpkin-spice-practice/blob/main/assets/images/pumpkin-spice.png)
